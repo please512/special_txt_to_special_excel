@@ -1,0 +1,19 @@
+{
+  "name": "toExcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"electron-packager ./ toExcel --arch=x64 --app-version=0.0.1 --out=build --overwrite --icon=build/favicon.ico'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json2xls": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron": "^12.0.0"
+  }
+}
